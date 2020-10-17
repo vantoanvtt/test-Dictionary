@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.SettingController">
+   <children>
+      <Label alignment="CENTER" layoutX="161.0" layoutY="36.0" prefHeight="49.0" prefWidth="348.0" text="ADD WORD" textFill="#bc7b7b">
+         <font>
+            <Font name="Britannic Bold" size="36.0" />
+         </font>
+      </Label>
+      <TextField fx:id="target" layoutX="163.0" layoutY="116.0" prefHeight="35.0" prefWidth="348.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="spelling" layoutX="163.0" layoutY="183.0" prefHeight="35.0" prefWidth="348.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="64.0" layoutY="116.0" prefHeight="35.0" prefWidth="69.0" text="Target: ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="64.0" layoutY="183.0" prefHeight="35.0" prefWidth="69.0" text="Spelling: ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="64.0" layoutY="246.0" prefHeight="35.0" prefWidth="69.0" text="Explain: ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="explain" layoutX="163.0" layoutY="246.0" prefHeight="67.0" prefWidth="348.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextArea>
+      <Button fx:id="btn_add" layoutX="301.0" layoutY="331.0" mnemonicParsing="false" onAction="#handleAddButtonAction" prefHeight="49.0" prefWidth="61.0" styleClass="btn-add" stylesheets="@SettingStyle.css">
+         <effect>
+            <DropShadow />
+         </effect></Button>
+   </children>
+</AnchorPane>

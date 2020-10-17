@@ -1,0 +1,26 @@
+.btn-search {
+    -fx-background-image: url('asset/search1.png');
+    -fx-background-size: 90px 85px;
+    -fx-background-position: center;
+}
+.btn-bookmark {
+    -fx-background-image: url('asset/bookmark.jpg');
+    -fx-background-size: 120px 110px;
+    -fx-background-position: center;
+
+}
+.btn-history {
+    -fx-background-image: url('asset/history.png');
+    -fx-background-size: 100px 100px;
+     -fx-background-position: center;
+}
+.btn-setting {
+    -fx-background-image: url('asset/setting.png');
+    -fx-background-size: 100px 100px;
+    -fx-background-position: center;
+}
+.background {
+    -fx-background-image: url('asset/background.jpg');
+    -fx-background-size: 550px 426px;
+    -fx-background-position: center;
+}

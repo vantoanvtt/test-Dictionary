@@ -1,0 +1,38 @@
+.btn-back {
+       -fx-background-image: url('asset/back.jpg');
+       -fx-background-size: 40px 40px;
+       -fx-background-position: center;
+       -fx-border-radius: 20;
+}
+.text-input {
+    -fx-background-color: #ecf0dd;
+    -fx-border-width: 2;
+    -fx-border-color: #60a1f0;
+    -fx-border-radius: 3;
+}
+.btn-search {
+       -fx-background-image: url('asset/searchInput.jpg');
+       -fx-background-size: 40px 40px;
+       -fx-background-position: center;
+       -fx-border-radius: 20;
+}
+.background-search {
+       -fx-background-image: url('asset/background2.jpg');
+       -fx-background-size: 257px 81px;
+       -fx-background-position: center;
+}
+.logo-search {
+       -fx-background-image: url('asset/searchLogo.jpg');
+       -fx-background-size: 81px 81px;
+       -fx-background-position: center;
+}
+.container-color {
+       -fx-background-image: url('asset/backgroundSearch.jpg');
+       -fx-background-size: 550px 426px;
+       -fx-background-position: center;
+}
+.btn-history {
+    -fx-background-image: url('asset/history.png');
+    -fx-background-size: 81px 78px;
+     -fx-background-position: center;
+}

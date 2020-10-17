@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXListView?>
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="426.0" prefWidth="550.0" styleClass="background" stylesheets="@StyleBookMark.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.BookMarkController">
+   <children>
+      <Label alignment="CENTER" layoutX="164.0" layoutY="23.0" prefHeight="35.0" prefWidth="223.0" text="BOOK MARK" textFill="#d37014">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="36.0" />
+         </font></Label>
+      <JFXListView fx:id="list" layoutX="65.0" layoutY="78.0" minWidth="420.0" prefHeight="318.0" prefWidth="420.0" stylesheets="@StyleBookMark.css">
+         <styleClass>
+            <String fx:value="jfx-list-cell" />
+            <String fx:value="jfx-rippler" />
+            <String fx:value="jfx-list-view" />
+         </styleClass>
+      </JFXListView>
+      <Button fx:id="btn_nav_back" layoutX="53.0" layoutY="25.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="40.0" prefWidth="40.0" styleClass="btn-back" stylesheets="@StyleBookMark.css" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,31 @@
+.jfx-list-cell:selected {
+    -fx-background-color: #3d8c91;
+}
+.jfx-list-cell {
+    -fx-background-insets: 0.0;
+}
+.jfx-list-cell .jfx-rippler{
+    -fx-rippler-fill:BLUE;
+}
+.jfx-list-cell:hover{
+    -fx-background-color: #1bd79c;
+}
+
+.jfx-list-view {
+    -fx-background-insets: 0;
+    -fx-cell-vertical-margin: 10;
+    -fx-vertical-gap: 10;
+    -fx-pref-width: 150;
+}
+.background {
+    -fx-background-image: url('asset/bookmarkbackground.jpg');
+    -fx-background-size: 550px 426px;
+    -fx-background-position: center;
+
+}
+.btn-back {
+       -fx-background-image: url('asset/back.jpg');
+       -fx-background-size: 40px 40px;
+       -fx-background-position: center;
+       -fx-border-radius: 20;
+}

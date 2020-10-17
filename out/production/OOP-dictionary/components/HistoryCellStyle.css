@@ -1,0 +1,19 @@
+.list-cell .label {
+  display: inline-block;
+  -fx-min-width: 50px;
+  -fx-background-color: #d5f2eb;
+  -fx-background-radius: 30px;
+  -fx-border-radius: 20px;
+  -fx-border-width: 2px;
+  -fx-border-style: solid;
+  -fx-border-color: #666666;
+}
+.list-cell:empty .label {
+  -fx-background-color: transparent;
+  -fx-border-width: 0px;
+}
+.btn-view {
+       -fx-background-image: url('asset/viewIcon.png');
+       -fx-background-size: 60px 40px;
+       -fx-background-position: center;
+}

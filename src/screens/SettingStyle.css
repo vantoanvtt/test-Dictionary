@@ -1,0 +1,5 @@
+.btn-add {
+    -fx-background-image: url('asset/addIcon.jpg');
+    -fx-background-size: 59px 49px;
+    -fx-background-position: center;
+}

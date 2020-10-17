@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="426.0" prefWidth="550.0" styleClass="background" stylesheets="@StyleHome.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.HomeController">
+   <children>
+      <AnchorPane layoutX="117.0" layoutY="25.0" prefHeight="50.0" prefWidth="333.0" style="-fx-background-color: #f9faf7;">
+         <children>
+            <ImageView fitHeight="70.0" fitWidth="65.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@asset/dictionary.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="75.0" layoutY="15.0" prefHeight="42.0" prefWidth="201.0" text="DICTIONARY" textFill="#d04b12">
+               <font>
+                  <Font name="Bell MT" size="30.0" />
+               </font>
+               <effect>
+                  <Shadow height="1.0" radius="0.0" width="0.0" />
+               </effect>
+            </Label>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </AnchorPane>
+      <Button fx:id="btn_nav_bookmark" layoutX="340.0" layoutY="141.0" mnemonicParsing="false" onAction="#handleMenuButtonAction" prefHeight="93.0" prefWidth="90.0" styleClass="btn-bookmark" stylesheets="@StyleHome.css">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button fx:id="btn_nav_history" layoutX="141.0" layoutY="275.0" mnemonicParsing="false" onAction="#handleMenuButtonAction" prefHeight="90.0" prefWidth="90.0" styleClass="btn-history" stylesheets="@StyleHome.css">
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Label layoutX="154.0" layoutY="236.0" prefHeight="27.0" prefWidth="65.0" text="Search">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#1ce140" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Button fx:id="btn_nav_settings" layoutX="340.0" layoutY="275.0" mnemonicParsing="false" onAction="#handleMenuButtonAction" prefHeight="90.0" prefWidth="90.0" styleClass="btn-setting" stylesheets="@StyleHome.css">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Label layoutX="342.0" layoutY="236.0" text="Bookmark">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#1ce140" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Button fx:id="btn_nav_search" graphicTextGap="0.0" layoutX="141.0" layoutY="142.0" mnemonicParsing="false" onAction="#handleMenuButtonAction" prefHeight="90.0" prefWidth="90.0" styleClass="btn-search" stylesheets="@StyleHome.css">
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Label layoutX="150.0" layoutY="372.0" prefHeight="17.0" prefWidth="72.0" text="History">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#1ce140" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="353.0" layoutY="372.0" prefHeight="18.0" prefWidth="65.0" text="Setting">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#1ce140" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+   </children>
+</AnchorPane>
