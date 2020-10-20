@@ -40,7 +40,7 @@ public class APItracau {
 
     public APItracau(String word) throws Exception {
         this.sentence = getData("https://api.tracau.vn/WBBcwnwQpV89/s/" + word + "/en");
-        System.out.println(sentence);
+        //System.out.println(sentence);
     }
 
     public String getSentence() {

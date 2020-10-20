@@ -13,6 +13,10 @@ public class DictionaryManagement {
     public DictionaryManagement(HashMap<String, Word> d) {
         dictionary.setHashMapWord(d);
     }
+    public DictionaryManagement(HashMap<String, Word> d, ArrayList<Word> listWord) {
+        dictionary.setHashMapWord(d);
+        dictionary.setWords(listWord);
+    }
 
     public HashMap<String, Word> getDictionary() {
         return dictionary.getHashMapWord();

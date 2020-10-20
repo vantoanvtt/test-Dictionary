@@ -17,6 +17,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 
 import javafx.scene.control.TextArea;
+import javafx.scene.layout.Pane;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import service.Database;
@@ -122,6 +123,11 @@ public class DisplayWordController implements Initializable {
 
         }*/
     }
+
+    /*@FXML
+    private void handleButtonEdit (ActionEvent event) {
+        pane.setVisible(true);
+    }*/
 
 
     @Override

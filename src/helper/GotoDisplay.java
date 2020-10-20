@@ -21,7 +21,8 @@ import java.util.HashMap;
 public class GotoDisplay {
     //HandleDataFileV_A v = new HandleDataFileV_A();
     //HandleDataFromFile data = new HandleDataFromFile();
-    DictionaryManagement db = new DictionaryManagement(Main.databaseAV.getListWord());
+    DictionaryManagement db = new DictionaryManagement(Main.databaseAV.getWordListHashMap(),Main.databaseAV.getListWord());
+
 
     //HashMap<String, Word> merge = db.addList(v.getWordList());
 
