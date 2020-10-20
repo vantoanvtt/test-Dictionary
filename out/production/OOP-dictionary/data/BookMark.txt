@@ -1,6 +1,2 @@
-expected
-hello
-account
-dog
-calibrate
-undecided
+habdalah
+vacancy

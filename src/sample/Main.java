@@ -14,7 +14,7 @@ import service.Database;
 
 public class Main extends Application {
 
-    //public static HandleDataFileV_A dataVA = new HandleDataFileV_A();
+    public static HandleDataFileV_A dataVA = new HandleDataFileV_A();
     //public static HandleDataFromFile dataAV = new HandleDataFromFile();
     public static Database databaseAV = new Database();
 

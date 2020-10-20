@@ -15,12 +15,10 @@ public class APISpeech {
     }
 
     public void speak(String text) {
-        System.out.println(text);
         Thread thread = new Thread(() -> {
             try {
                 AdvancedPlayer player = new AdvancedPlayer(this.synthesizer.getMP3Data(text));
                 player.play();
-                System.out.println("Successfully got back synthesizer data");
             } catch (JavaLayerException | IOException var3) {
                 var3.printStackTrace();
             }

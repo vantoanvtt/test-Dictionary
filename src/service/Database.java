@@ -98,4 +98,31 @@ public class Database {
             e.printStackTrace();
         }
     }
+
+    public static void EditWord(Word edit) {
+        try {
+            String sql = "UPDATE tbl_edict SET word=?, detail=?,spelling=? WHERE word=?";
+            PreparedStatement ps = conn.prepareStatement(sql);
+            //ps.setInt(1,id);
+            ps.setString(1, edit.getWord_target());
+            ps.setString(2, edit.getWord_explain());
+            ps.setString(3, edit.getWord_spelling());
+            ps.setString(4, edit.getWord_target());
+            ps.executeUpdate();
+           // Main.databaseAV.getListWordTarget().remove(delete.getWord_target());
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void SortWord() {
+        try {
+            String sql = "SELECT * FROM tbl_edict ORDER BY word ASC";
+            PreparedStatement ps = conn.prepareStatement(sql);
+            //ps.setInt(1,id);
+            ps.executeUpdate();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
 }

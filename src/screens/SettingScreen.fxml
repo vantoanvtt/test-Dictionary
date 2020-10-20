@@ -49,5 +49,10 @@
          <effect>
             <DropShadow />
          </effect></Button>
+      <Button fx:id="btn_nav_back" layoutX="44.0" layoutY="43.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="35.0" prefWidth="40.0" styleClass="btn-back" stylesheets="@SettingStyle.css">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
    </children>
 </AnchorPane>
